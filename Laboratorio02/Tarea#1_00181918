@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int a,b,c,r;
+	cout<<"Digite un numero: ";
+	cin>>a;
+	cout<<"Digite un numero: ";
+	cin>>b;
+	c=a/b;
+	r=a%b;
+	while(r!=0)
+	{
+		a=b;
+		b=r;
+		
+		
+		if(a>b){
+		
+		c=a/b;
+		r=a%b;
+	
+	}
+}
+cout<<"El mcd es: "<<b; //La version recursiva puede expresar el algoritmo de manera natural, tambien la funcion recursiva intercambia los dos valores y se calcula el mcd correctamente. La iteracion es mas eficiente en algunos casos.
+}
